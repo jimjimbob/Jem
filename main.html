@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Libre+Barcode+128&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Project Directory</h2>
+        <h3>
+            <span class="ubuntu">C:/usr/</span>
+            <span class="barcode-medium">JEM</span>
+            <span class="ubuntu">/desktop/</span>
+         
+         </h3>
+        <ul>
+            <li><a href="past.html">Past Projects</a></li>
+            <li><a href="present.html">Present Projects</a></li>
+            <li><a href="future.html">Future Projects</a></li>
+        </ul>
+        <div class="return-container">
+            <a href="about.html" class="return-button">Return to About</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Projects</h1>
+        <div class="empty-directory">
+            <p>Select a category from the file directory to view projects.</p>
+        </div>
+    </div>
+
+    
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2 id="project-title"></h2>
+            <p id="project-info">Here will be the project information.</p>
+            <img id="project-image" src="" alt="Project Image">
+        </div>
+    </div>
+
+    <script src="about.js"></script>
+</body>
+</html>
