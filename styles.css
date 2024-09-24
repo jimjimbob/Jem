@@ -287,9 +287,9 @@ h1 {
     height: 100%;
     padding: 20px;
     font-family: 'PerfectDOSVGA', monospace;
-    color: #4d29b8;
+    color: #FFFFFF;
     background-color: #0a0a0a;
-    overflow-y: auto; /* Allow internal scroll if content exceeds */
+    overflow-y: auto; 
     white-space: pre-wrap;
     box-sizing: border-box;
 }
