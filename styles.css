@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'PerfectDOSVGA';
+    src: url('fonts/Perfect DOS VGA 437 Win.ttf') format('truetype'),
+         url('fonts/Perfect DOS VGA 437.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
 html, body {
     height: 100%;
     width: 100%;
@@ -275,7 +286,7 @@ h1 {
     width: 100%;
     height: 100%;
     padding: 20px;
-    font-family: monospace;
+    font-family: 'PerfectDOSVGA', monospace;
     color: #4d29b8;
     background-color: #0a0a0a;
     overflow-y: auto; /* Allow internal scroll if content exceeds */
@@ -284,6 +295,7 @@ h1 {
 }
 
 #loading-text {
+    font-family: 'PerfectDOSVGA', monospace;
     line-height: 1.5;
     font-size: 1.1em;
 }

@@ -19,12 +19,12 @@ function displayNextMessage() {
         loadingTextElement.textContent += newMessage;
         currentMessageIndex++;
 
-        setTimeout(displayNextMessage, 1000);
+        setTimeout(displayNextMessage, 600);
     } else {
         setTimeout(() => {
             document.getElementById('loading-screen').style.display = 'none';
             document.getElementById('main-content').style.display = 'block';
-        }, 1000);
+        }, 600);
     }
 }
 
